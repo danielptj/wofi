@@ -25,6 +25,7 @@ Para usar a aplicação, siga os passos:
     ```
     git clone https://github.com/paulohgs/wofi
     ```
+
 2. Instale as dependências:
     ```
     pip install psycopg2
@@ -32,11 +33,13 @@ Para usar a aplicação, siga os passos:
     ```
     pip install colorama
     ```
+    
+3. Importe o esquema SQL
 
-3. Inicie a aplicação pelo terminal:
+4. Inicie a aplicação pelo terminal:
     ```
     {local de instalação do python}\python.exe {caminho do arquivo}\command_line_interface.py
     ```
-4. Pronto!
+5. Pronto!
 
 [⬆ Voltar ao topo](#wofi)
