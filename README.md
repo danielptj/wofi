@@ -15,7 +15,7 @@ Aplicação para o trabalho final de Banco de Dados 1
 
 O **wofi** é uma aplicação CLI que faz acesso ao banco de dados
 para realizar algumas operações, simulando um sistema de uma
-loja, gerenciando **clientes**, **funcionários**, **estoque**, **produtos** e **pedidos**
+loja, gerenciando **clientes**, **funcionários**, **estoque**, **produtos** e **pedidos**.
 
 ## 💻 Usando a aplicação
 
