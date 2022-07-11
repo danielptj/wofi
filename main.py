@@ -1,5 +1,5 @@
 from backend.DBManager import DBManager
-from backend.ProdutoDAO import ProductDAO
+from backend.ProdutoDAO import ProdutoDAO
 
 
 def _main():
@@ -7,15 +7,15 @@ def _main():
     DBManager.instance(user="postgres", password="123456", host="localhost", port="5432", database="testeAppDB")
 
     print("Está vivo!")
-    # p = ProductDAO()
+    p = ProdutoDAO()
 
     # r = p.insert_product("Blusa feia", 20.0)
     # print(f"result: {r}" )
 
-    # pl = p.get_all_products()
+    p = p.listar_todos()
 
-    # for _p in pl:
-    #     print(_p.name, _p.price)
+    for _p in p:
+        print(_p.nome, _p.preco)
 
 
 if __name__ == "__main__":
