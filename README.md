@@ -36,10 +36,18 @@ Para usar a aplicação, siga os passos:
     
 3. Importe o esquema SQL
 
-4. Inicie a aplicação pelo terminal:
+4. Conecte o banco com a aplicação:
+
+    Na função main do arquivo command_line_interface.py é necessário mudar os paramentros do método DBManager.instance
+    ```
+    DBManager.instance(user="postgres", password=senha, host="localhost", port=porta, database=nome_da_database)
+    ```
+    Dessa forma, a conexão com o banco de dados vai ser estabelecida globalmente na aplicação.
+
+5. Inicie a aplicação pelo terminal:
     ```
     {local de instalação do python}\python.exe {caminho do arquivo}\command_line_interface.py
     ```
-5. Pronto!
+6. Pronto!
 
 [⬆ Voltar ao topo](#wofi)
